@@ -24,7 +24,7 @@
     <header class="header">
         <div class="container">
             <a href="#" class="logo">
-                <img src="./Assets/images/logo.png" alt="" width="364" height="58">
+                <img src="./Assets/images/logo.png" alt="logo" width="364" height="58">
             </a>
 
             <div class="search-view" data-search-view>
@@ -42,18 +42,30 @@
                             <span class="m-icon">location_on</span>
                             <div>
                                 <p class="item-title">London</p>
+                                <p class="label-2 item-subtitle">State of London, GB</p>
+
                             </div>
 
-                            <p class="label-2 item subtitle">State of London, GB</p>
-
+                            <a href="#" class="item-link has-state" data-search-toggler></a>
                         </li>
                     </ul>
                 </div>
 
             </div>
+
+            <div class="header-actions">
+                <button class="icon-btn has-state" aria-label="open search" data-search-toggler>
+                    <span class="m-icon">search</span>
+                </button>
+
+                <a href="#/current-location" class="btn-primary has-state" data-current-location-btn >
+                    <span class="m-icon">my_location</span>
+                    <span class="span">current location</span>
+                </a>
+
+            </div>
+
         </div>
-    </header>    
-
-
+    </header>
 </body>
 </html>
